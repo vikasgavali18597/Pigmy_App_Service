@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GLib.CQRS.Validation.Abstractions" Version="1.0.0" />
+    <PackageReference Include="GLib.CQRS.Validation.FluentValidator" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\G_Pigmy.App.LookUp\G_Pigmy.App.LookUp.csproj" />
+    <ProjectReference Include="..\G_Pigmy.App.Mutation\G_Pigmy.App.Mutation.csproj" />
+  </ItemGroup>
+
+</Project>
